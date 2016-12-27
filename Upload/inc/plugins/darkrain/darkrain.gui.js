@@ -214,6 +214,13 @@ function Screenshot() {
 
 window.onload = function() {
 	var gui = new dat.GUI();
+	//	dat.GUI.toggleHide();
+    //  $(gui.domElement).find(">ul").toggleClass("closed");
+    // to toggle it closed
+    gui.closed = false;
+    // to toggle it open again
+    gui.closed = true;
+
 	gui.add(controls, 'rain', 1, 10).name("Rain intensity").step(1);
 	gui.add(controls, 'alpha', 0.1, 1).name("Alpha").step(0.1);
 	gui.add(controls, 'color', 0, 360).name("Color").step(1).listen();

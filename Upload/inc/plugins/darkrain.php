@@ -107,7 +107,7 @@ function darkrain($page)
     global $mybb;
     
     if($mybb->user['showDarkRain']) {
-        $page=str_replace('</head>','<style>body{ background: transparent !important; color: #FFF !important;} #logo{ background: transparent;} #content{ background: transparent !important; color: #FFF !important;} .navigation .active { color: #FFF !important;} .navigation { color: #FFF !important;}</style><canvas id="canvas" style="position : fixed; top : 0px; left : 0px; width:100vw; height:100vh; z-index:-9999; display: block;"></canvas><script type="text/javascript" src="'.$mybb->settings['bburl'].'/inc/plugins/darkrain/darkrain.js"></script></head>',$page);
+        $page=str_replace('</head>','<style>body{ background: transparent !important; color: #FFF !important;} #logo{ background: transparent;} #content{ background: transparent !important; color: #FFF !important;} .navigation .active { color: #FFF !important;} .navigation { color: #FFF !important;}</style><canvas id="canvas" style="position : fixed; top : 0px; left : 0px; width:100vw; height:100vh; z-index:-9999; display: block;"></canvas><script type="text/javascript" src="'.$mybb->settings['bburl'].'/inc/plugins/darkrain/dat.gui.min.js"></script><script type="text/javascript" src="'.$mybb->settings['bburl'].'/inc/plugins/darkrain/darkrain.gui.js"></script></head>',$page);
     }
     
     return $page;
