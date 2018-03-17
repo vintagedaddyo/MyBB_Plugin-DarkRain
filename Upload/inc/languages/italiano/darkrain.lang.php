@@ -13,6 +13,6 @@
  *
  */
 
-$l['darkrain_show_question'] = 'Should the dark rain be displayed?';
+$l['darkrain_show_question'] = 'Dovrebbe essere visualizzata la pioggia scura?';
 
 ?>

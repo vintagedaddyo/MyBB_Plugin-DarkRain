@@ -17,7 +17,7 @@
 // darkrain_plugin_info
 
 $l['darkrain_Name'] = 'DarkRain';
-$l['darkrain_Desc'] = 'Shows beautiful dark rain all over your board.';
+$l['darkrain_Desc'] = 'Muestra una hermosa lluvia oscura en todo el tablero.';
 $l['darkrain_Web'] = 'http://community.mybb.com/user-6029.html';
 $l['darkrain_Auth'] = 'Vintagedaddyo';
 $l['darkrain_AuthSite'] = 'http://community.mybb.com/user-6029.html';
