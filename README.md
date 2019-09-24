@@ -27,7 +27,7 @@ Change:
     border-bottom: 1px solid #000;
 }
 
-None
+
 To:
 
 #logo {
